@@ -60,6 +60,11 @@ jobs:
                 dotnet publish -c Release -o ./publish
             
             - name: deploy to azure webapp
+              uses: azure/webapps-deploy@v2
+              with:
+                app-name: appnum545
+                package: ./publish
+                
               
 
             
