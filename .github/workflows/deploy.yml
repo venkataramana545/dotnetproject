@@ -63,7 +63,7 @@ jobs:
               uses: azure/webapps-deploy@v2
               with:
                 app-name: appnum545
-                package: ./publish
+                package: ./NetflicProject/publish
 
               
 
