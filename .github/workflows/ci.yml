@@ -23,4 +23,6 @@ jobs:
                 dotnet restore
             
             - name: build
-              run: dotnet build 
+              run: |
+                cd NetflicProject 
+                dotnet build 
