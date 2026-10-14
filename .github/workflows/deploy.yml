@@ -1,4 +1,4 @@
-name: terraform infra + deploy dotnet app
+name: deploy dotnet pro
 on:
     workflow_dispatch
 jobs:
@@ -64,7 +64,7 @@ jobs:
               with:
                 app-name: appnum545
                 package: ./publish
-                
+
               
 
             
