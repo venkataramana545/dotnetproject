@@ -19,7 +19,7 @@ jobs:
             
             - name: Restore dependencies
               run: |
-                cd NetflixProject
+                cd NetflicProject
                 dotnet restore
             
             - name: build
